@@ -32,7 +32,9 @@ function getStocks() {
 
 }
 
-setInterval(getStocks(), 60000)
+getStocks()
+
+setInterval(getStocks, 60000)
 
 const moneyManager = new MoneyManager()
 
